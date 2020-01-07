@@ -1460,6 +1460,279 @@ export default [
       },
     ],
   },
+  {
+    id: '72',
+    title: 'OUTRAS RAMPAS',
+    selected: false,
+    markers: [
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91816,
+          longitude: -48.26019,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91743,
+          longitude: -48.25647,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91742,
+          longitude: -48.25642,
+        },
+      },
+      {
+        title: 'Rampa',
+        coordinates: {
+          latitude: -18.91685,
+          longitude: -48.2566,
+        },
+      },
+      {
+        title: 'Rampa',
+        coordinates: {
+          latitude: -18.91683,
+          longitude: -48.25655,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91747,
+          longitude: -48.25618,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91696,
+          longitude: -48.25511,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91696,
+          longitude: -48.25507,
+        },
+      },
+      {
+        title: 'Rampa',
+        coordinates: {
+          latitude: -18.91718,
+          longitude: -48.2548,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91753,
+          longitude: -48.25532,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91752,
+          longitude: -48.25529,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.9181,
+          longitude: -48.26017,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91755,
+          longitude: -48.25523,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91759,
+          longitude: -48.25522,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91773,
+          longitude: -48.25526,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91813,
+          longitude: -48.25516,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91845,
+          longitude: -48.25511,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.9179,
+          longitude: -48.2574,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91895,
+          longitude: -48.25932,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91931,
+          longitude: -48.25991,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.9195,
+          longitude: -48.25983,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.9175,
+          longitude: -48.2556,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91804,
+          longitude: -48.26014,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91761,
+          longitude: -48.25621,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91768,
+          longitude: -48.2566,
+        },
+      },
+      {
+        title: 'Acesso ao bloco',
+        coordinates: {
+          latitude: -18.91889,
+          longitude: -48.2567,
+        },
+      },
+      {
+        title: 'Acesso ao bloco',
+        coordinates: {
+          latitude: -18.91875,
+          longitude: -48.25609,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91888,
+          longitude: -48.25715,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91893,
+          longitude: -48.25696,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91927,
+          longitude: -48.25877,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91935,
+          longitude: -48.25916,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91941,
+          longitude: -48.25942,
+        },
+      },
+      {
+        title: 'Calçada',
+        coordinates: {
+          latitude: -18.91799,
+          longitude: -48.26011,
+        },
+      },
+      {
+        title: 'Acesso ao mirante',
+        coordinates: {
+          latitude: -18.91764,
+          longitude: -48.25985,
+        },
+      },
+      {
+        title: 'Rampa',
+        coordinates: {
+          latitude: -18.91659,
+          longitude: -48.25742,
+        },
+      },
+      {
+        title: 'Rampa',
+        coordinates: {
+          latitude: -18.91655,
+          longitude: -48.25739,
+        },
+      },
+      {
+        title: 'Rampa',
+        coordinates: {
+          latitude: -18.91699,
+          longitude: -48.25741,
+        },
+      },
+      {
+        title: 'Rampa',
+        coordinates: {
+          latitude: -18.91654,
+          longitude: -48.25685,
+        },
+      },
+    ],
+  },
   // 'CC - CENTRO DE CONVIVÊNCIA',
   // 'BANCO - POSTO DE SAÚDE - NASS',
 ];
