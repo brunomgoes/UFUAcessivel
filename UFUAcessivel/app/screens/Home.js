@@ -1,45 +1,45 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { View, StyleSheet } from 'react-native';
-import MapView, { Marker } from 'react-native-maps';
-import { Ionicons } from '@expo/vector-icons';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { View, StyleSheet } from "react-native";
+import MapView, { Marker } from "react-native-maps";
+import { Ionicons } from "@expo/vector-icons";
 
-import blocos from '../data/blocos';
+import blocos from "../data/blocos";
 
-const ICON_COLOR = '#343434';
+const ICON_COLOR = "#343434";
 const ICON_SIZE = 60;
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'flex-end',
-    alignItems: 'flex-end',
+    justifyContent: "flex-end",
+    alignItems: "flex-end"
   },
   map: {
-    position: 'absolute',
+    position: "absolute",
     top: 0,
     left: 0,
     bottom: 0,
-    right: 0,
+    right: 0
   },
   icon: {
     paddingBottom: 10,
-    paddingHorizontal: 10,
+    paddingHorizontal: 10
   }
 });
 
 class Home extends Component {
   constructor(props) {
-    super(props)
+    super(props);
 
     this.state = {
       blocos: blocos,
-      SelectedBlocos: [],
-    }
+      SelectedBlocos: []
+    };
   }
 
   static propTypes = {
-    navigation: PropTypes.object,
+    navigation: PropTypes.object
   };
 
   handleIconPress = () => {
@@ -47,7 +47,7 @@ class Home extends Component {
   };
 
   handleListPress = () => {
-    this.props.navigation.navigate('List');
+    this.props.navigation.navigate("List");
   };
 
   render() {
@@ -57,17 +57,19 @@ class Home extends Component {
     this.state.blocos.forEach(item => {
       item.markers.forEach(elemento => {
         elemento.id = count;
-        count+= 1;
+        count += 1;
         markers.push(elemento);
       });
     });
 
     let mapMarkers = markers.map(item => {
-      return <MapView.Marker
-        key={item.id}
-        coordinate={item.coordinates}
-        title={item.title}
-      />
+      return (
+        <MapView.Marker
+          key={item.id}
+          coordinate={item.coordinates}
+          title={item.title}
+        />
+      );
     });
 
     return (
@@ -78,7 +80,7 @@ class Home extends Component {
             latitude: -18.917841,
             longitude: -48.259092,
             latitudeDelta: 0.0042,
-            longitudeDelta: 0.0031,
+            longitudeDelta: 0.0031
           }}
         >
           {mapMarkers}

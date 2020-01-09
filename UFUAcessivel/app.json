@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "projetinho do PET",
+    "name": "UFUAcessivel",
     "slug": "UFUAcessivel",
     "privacy": "public",
-    "sdkVersion": "34.0.0",
+    "sdkVersion": "36.0.0",
     "platforms": [
       "ios",
       "android",
