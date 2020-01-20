@@ -1,7 +1,7 @@
 import React from "react";
 import EStyleSheet from "react-native-extended-stylesheet";
 
-import AppNavigator from "./config/routes";
+import Routes from "./config/routes";
 
 EStyleSheet.build({
   $white: "#FFFFFF",
@@ -9,4 +9,6 @@ EStyleSheet.build({
   $border: "#949494"
 });
 
-export default () => <AppNavigator />;
+export default function App() {
+  return <Routes />;
+}
