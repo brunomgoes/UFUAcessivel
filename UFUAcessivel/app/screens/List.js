@@ -1,82 +1,52 @@
 import React, { Component } from "react";
 import { FlatList, View, StatusBar } from "react-native";
 
-import { ListItem, Separator } from "../components/List";
+import { ListItem, Separator } from "../components/ListItem";
 import blocos from "../data/blocos";
 
 class List extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
-      blocos: blocos,
-      SelectedBlocos: []
+      pontos: blocos,
+      selectedBlocos: []
     };
   }
 
   handlePress = hey => {
-    this.state.blocos.map(item => {
+    this.state.pontos.map(item => {
       if (item.id === hey.id) {
         item.selected = !item.selected;
         if (item.selected === true) {
-          this.state.SelectedBlocos.push(item);
+          this.state.selectedBlocos.push(item);
           console.log("selected:" + item.title);
         } else if (item.selected === false) {
-          const i = this.state.SelectedBlocos.indexOf(item);
+          const i = this.state.selectedBlocos.indexOf(item);
           if (1 != -1) {
-            this.state.SelectedBlocos.splice(i, 1);
+            this.state.selectedBlocos.splice(i, 1);
             console.log("unselect:" + item.title);
-            return this.state.SelectedBlocos;
+            return this.state.selectedBlocos;
           }
         }
       }
     });
-    this.setState({ blocos: this.state.blocos });
+    this.setState({ pontos: this.state.pontos });
   };
-
-  handleMarkerPress = hey => {
-    this.state.blocos.map(item => {
-      if (item.id === hey.id) {
-        item.selected = !item.selected;
-        if (item.selected === true) {
-          this.state.SelectedBlocos.push(item);
-          console.log("selected:" + item.title);
-        } else if (item.selected === false) {
-          const i = this.state.SelectedBlocos.indexOf(item);
-          if (1 != -1) {
-            this.state.SelectedBlocos.splice(i, 1);
-            console.log("unselect:" + item.title);
-            return this.state.SelectedBlocos;
-          }
-        }
-      }
-    });
-    this.setState({ blocos: this.state.blocos });
-  };
-
-  _showSelectedBlocos() {
-    return this.state.SelectedBlocos.length;
-  }
 
   render() {
     return (
       <View style={{ flex: 1 }}>
-        <StatusBar barStyle="default" translucent={false} />
+        <StatusBar barStyle="default" translucent={true} />
         <FlatList
-          data={this.state.blocos}
-          keyExtractor={item => item.id}
+          data={this.state.pontos}
           extraData={this.state}
+          keyExtractor={item => item.id}
           ItemSeparatorComponent={Separator}
           renderItem={({ item }) => (
             <ListItem
               text={item.title}
               selected={item.selected}
-              onPress={() => {
-                this.handlePress(item);
-              }}
-              onIconPress={() => {
-                this.handleMarkerPress(item);
-              }}
+              onPress={() => this.handlePress(item)}
             />
           )}
         />
