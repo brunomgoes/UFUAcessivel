@@ -5,42 +5,42 @@ export default [
     selected: false,
     markers: [
       {
-        title: "1A - Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91795,
           longitude: -48.25806
         }
       },
       {
-        title: "1A - Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91797,
           longitude: -48.25815
         }
       },
       {
-        title: "1A - Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91811,
           longitude: -48.25884
         }
       },
       {
-        title: "1A - Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91825,
           longitude: -48.25899
         }
       },
       {
-        title: "1A - Primeiro Andar",
+        title: "Acesso ao primeiro andar",
         coordinates: {
           latitude: -18.9181,
           longitude: -48.25833
         }
       },
       {
-        title: "1A - Segundo Andar",
+        title: "Acesso ao segundo andar",
         coordinates: {
           latitude: -18.91832,
           longitude: -48.25793
@@ -54,21 +54,24 @@ export default [
     selected: false,
     markers: [
       {
-        title: "1B - Calçada",
+        title: "Acesso à calçada",
+
         coordinates: {
           latitude: -18.91845,
           longitude: -48.259
         }
       },
       {
-        title: "1B - 2º Andar",
+        title: "Acesso ao segundo andar",
+
         coordinates: {
           latitude: -18.91902,
           longitude: -48.25975
         }
       },
       {
-        title: "1B - Acesso ao Bloco",
+        title: "Acesso ao bloco",
+
         coordinates: {
           latitude: -18.91848,
           longitude: -48.25912
@@ -82,21 +85,24 @@ export default [
     selected: false,
     markers: [
       {
-        title: "1C - Calçada",
+        title: "Acesso à calçada",
+
         coordinates: {
           latitude: -18.91928,
           longitude: -48.25842
         }
       },
       {
-        title: "1C - Acesso ao Bloco",
+        title: "Acesso ao bloco",
+
         coordinates: {
           latitude: -18.91931,
           longitude: -48.25835
         }
       },
       {
-        title: "1C - Elevador",
+        title: "Elevador",
+
         coordinates: {
           latitude: -18.91939,
           longitude: -48.25827
@@ -110,28 +116,32 @@ export default [
     selected: false,
     markers: [
       {
-        title: "1D - Acesso ao Bloco",
+        title: "Acesso ao bloco",
+
         coordinates: {
           latitude: -18.92012,
           longitude: -48.25994
         }
       },
       {
-        title: "1D - Acesso ao Bloco",
+        title: "Acesso ao bloco",
+
         coordinates: {
           latitude: -18.91992,
           longitude: -48.25999
         }
       },
       {
-        title: "1D - Acesso ao Bloco",
+        title: "Acesso ao bloco",
+
         coordinates: {
           latitude: -18.91967,
           longitude: -48.2599
         }
       },
       {
-        title: "1D - Calçada",
+        title: "Acesso à calçada",
+
         coordinates: {
           latitude: -18.91961,
           longitude: -48.26003
@@ -145,14 +155,16 @@ export default [
     selected: false,
     markers: [
       {
-        title: "1E - Calçada",
+        title: "Acesso à calçada",
+
         coordinates: {
           latitude: -18.91935,
           longitude: -48.25884
         }
       },
       {
-        title: "1E - Acesso ao Bloco",
+        title: "Acesso ao bloco",
+
         coordinates: {
           latitude: -18.91944,
           longitude: -48.25881
@@ -166,28 +178,32 @@ export default [
     selected: false,
     markers: [
       {
-        title: "1F - Calçada",
+        title: "Acesso à calçada",
+
         coordinates: {
           latitude: -18.91906,
           longitude: -48.25775
         }
       },
       {
-        title: "1F - Calçada",
+        title: "Acesso à calçada",
+
         coordinates: {
           latitude: -18.91923,
           longitude: -48.2585
         }
       },
       {
-        title: "1F - Calçada",
+        title: "Acesso à calçada",
+
         coordinates: {
           latitude: -18.91927,
           longitude: -48.25869
         }
       },
       {
-        title: "1F - 2º andar",
+        title: "Acesso ao segundo andar",
+
         coordinates: {
           latitude: -18.91877,
           longitude: -48.25776
@@ -201,14 +217,15 @@ export default [
     selected: false,
     markers: [
       {
-        title: "1G - Acesso ao Bloco",
+        title: "Acesso ao bloco",
+
         coordinates: {
           latitude: -18.9202,
           longitude: -48.26018
         }
       },
       {
-        title: "1G - Elevador",
+        title: "Elevador",
         coordinates: {
           latitude: -18.91802,
           longitude: -48.2571
@@ -228,7 +245,8 @@ export default [
     selected: false,
     markers: [
       {
-        title: "1I - Elevador",
+        title: "Elevador",
+
         coordinates: {
           latitude: -18.91847,
           longitude: -48.25596
@@ -242,14 +260,16 @@ export default [
     selected: false,
     markers: [
       {
-        title: "1J - Acesso ao 1º andar",
+        title: "Acesso ao primeiro andar",
+
         coordinates: {
           latitude: -18.91853,
           longitude: -48.25735
         }
       },
       {
-        title: "1J - Acesso ao 2º andar",
+        title: "Acesso ao segundo andar",
+
         coordinates: {
           latitude: -18.91858,
           longitude: -48.25759
@@ -263,14 +283,16 @@ export default [
     selected: false,
     markers: [
       {
-        title: "1K - Calçada",
+        title: "Acesso à calçada",
+
         coordinates: {
           latitude: -18.91922,
           longitude: -48.25711
         }
       },
       {
-        title: "1K - Calçada",
+        title: "Acesso à calçada",
+
         coordinates: {
           latitude: -18.919,
           longitude: -48.25726
@@ -290,28 +312,32 @@ export default [
     selected: false,
     markers: [
       {
-        title: "1M - Calçada",
+        title: "Acesso à calçada",
+
         coordinates: {
           latitude: -18.91945,
           longitude: -48.25936
         }
       },
       {
-        title: "1M - Calçada",
+        title: "Acesso à calçada",
+
         coordinates: {
           latitude: -18.91948,
           longitude: -48.25939
         }
       },
       {
-        title: "1M - Acesso ao bloco",
+        title: "Acesso ao bloco",
+
         coordinates: {
           latitude: -18.91977,
           longitude: -48.2593
         }
       },
       {
-        title: "1M - Elevador",
+        title: "Elevador",
+
         coordinates: {
           latitude: -18.91967,
           longitude: -48.25928
@@ -331,35 +357,40 @@ export default [
     selected: false,
     markers: [
       {
-        title: "1O - Calçada",
+        title: "Acesso à calçada",
+
         coordinates: {
           latitude: -18.91958,
           longitude: -48.25973
         }
       },
       {
-        title: "1O - Acesso ao bloco",
+        title: "Acesso ao bloco",
+
         coordinates: {
           latitude: -18.91965,
           longitude: -48.25972
         }
       },
       {
-        title: "1O - Calçada",
+        title: "Acesso à calçada",
+
         coordinates: {
           latitude: -18.91979,
           longitude: -48.25968
         }
       },
       {
-        title: "1O - Acesso ao bloco",
+        title: "Acesso ao bloco",
+
         coordinates: {
           latitude: -18.91984,
           longitude: -48.25969
         }
       },
       {
-        title: "1O - Acesso ao bloco",
+        title: "Acesso ao bloco",
+
         coordinates: {
           latitude: -18.92011,
           longitude: -48.25962
@@ -373,7 +404,8 @@ export default [
     selected: false,
     markers: [
       {
-        title: "1P - Acesso ao bloco",
+        title: "Acesso ao bloco",
+
         coordinates: {
           latitude: -18.91973,
           longitude: -48.25853
@@ -387,14 +419,14 @@ export default [
     selected: false,
     markers: [
       {
-        title: "1Q - Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91968,
           longitude: -48.26012
         }
       },
       {
-        title: "1Q - Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91975,
           longitude: -48.26038
@@ -408,7 +440,7 @@ export default [
     selected: false,
     markers: [
       {
-        title: "1R - Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91949,
           longitude: -48.25946
@@ -422,35 +454,35 @@ export default [
     selected: false,
     markers: [
       {
-        title: "1S - Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91919,
           longitude: -48.25526
         }
       },
       {
-        title: "1S - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91913,
           longitude: -48.2552
         }
       },
       {
-        title: "1S - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91884,
           longitude: -48.2552
         }
       },
       {
-        title: "1S - Acesso ao 1º andar",
+        title: "Acesso ao primeiro andar",
         coordinates: {
           latitude: -18.91883,
           longitude: -48.25487
         }
       },
       {
-        title: "1S - Acesso ao 2º andar",
+        title: "Acesso ao primeiro andar",
         coordinates: {
           latitude: -18.91884,
           longitude: -48.25493
@@ -470,7 +502,7 @@ export default [
     selected: false,
     markers: [
       {
-        title: "1U - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91856,
           longitude: -48.25884
@@ -496,35 +528,35 @@ export default [
     selected: false,
     markers: [
       {
-        title: "1X - Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91819,
           longitude: -48.25929
         }
       },
       {
-        title: "1X - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91857,
           longitude: -48.25967
         }
       },
       {
-        title: "1X - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91837,
           longitude: -48.25929
         }
       },
       {
-        title: "1X - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91845,
           longitude: -48.25928
         }
       },
       {
-        title: "1X - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91853,
           longitude: -48.25957
@@ -538,21 +570,21 @@ export default [
     selected: false,
     markers: [
       {
-        title: "1Y - Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91869,
           longitude: -48.2554
         }
       },
       {
-        title: "1Y - Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91875,
           longitude: -48.25593
         }
       },
       {
-        title: "1Y - Elevador",
+        title: "Elevador",
         coordinates: {
           latitude: -18.91899,
           longitude: -48.25586
@@ -578,7 +610,7 @@ export default [
     selected: false,
     markers: [
       {
-        title: "3C - Elevador",
+        title: "Elevador",
         coordinates: {
           latitude: -18.91661,
           longitude: -48.25862
@@ -592,35 +624,35 @@ export default [
     selected: false,
     markers: [
       {
-        title: "3D - Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91793,
           longitude: -48.25868
         }
       },
       {
-        title: "3D - Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91784,
           longitude: -48.25823
         }
       },
       {
-        title: "3D - Acesso ao 2º andar",
+        title: "Acesso ao segundo andar",
         coordinates: {
           latitude: -18.91786,
           longitude: -48.25852
         }
       },
       {
-        title: "3D - Acesso ao 2º andar",
+        title: "Acesso ao segundo andar",
         coordinates: {
           latitude: -18.91779,
           longitude: -48.25819
         }
       },
       {
-        title: "3D - Elevador",
+        title: "Elevador",
         coordinates: {
           latitude: -18.91762,
           longitude: -48.25846
@@ -634,21 +666,21 @@ export default [
     selected: false,
     markers: [
       {
-        title: "3E - Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91834,
           longitude: -48.25507
         }
       },
       {
-        title: "3E - Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91846,
           longitude: -48.25506
         }
       },
       {
-        title: "3E - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91834,
           longitude: -48.255
@@ -692,14 +724,14 @@ export default [
     selected: false,
     markers: [
       {
-        title: "3M - Acesso ao 2º andar",
+        title: "Acesso ao segundo andar",
         coordinates: {
           latitude: -18.91784,
           longitude: -48.25472
         }
       },
       {
-        title: "3M - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91789,
           longitude: -48.25511
@@ -713,14 +745,14 @@ export default [
     selected: false,
     markers: [
       {
-        title: "3N - Acesso ao 2º andar",
+        title: "Acesso ao segundo andar",
         coordinates: {
           latitude: -18.91989,
           longitude: -48.25888
         }
       },
       {
-        title: "3N - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91976,
           longitude: -48.25894
@@ -734,14 +766,14 @@ export default [
     selected: false,
     markers: [
       {
-        title: "3O - Acesso ao 1º andar",
+        title: "Acesso ao primeiro andar",
         coordinates: {
           latitude: -18.91947,
           longitude: -48.26008
         }
       },
       {
-        title: "3O - Acesso ao 2º andar",
+        title: "Acesso ao segundo andar",
         coordinates: {
           latitude: -18.91956,
           longitude: -48.26006
@@ -755,7 +787,7 @@ export default [
     selected: false,
     markers: [
       {
-        title: "3P - Elevador",
+        title: "Elevador",
         coordinates: {
           latitude: -18.92017,
           longitude: -48.26144
@@ -769,21 +801,21 @@ export default [
     selected: false,
     markers: [
       {
-        title: "3Q - Acesso ao 1º andar",
+        title: "Acesso ao primeiro andar",
         coordinates: {
           latitude: -18.9176,
           longitude: -48.25778
         }
       },
       {
-        title: "3Q - Acesso ao 2º andar",
+        title: "Acesso ao segundo andar",
         coordinates: {
           latitude: -18.91736,
           longitude: -48.2576
         }
       },
       {
-        title: "3Q - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91777,
           longitude: -48.25793
@@ -851,21 +883,21 @@ export default [
     selected: false,
     markers: [
       {
-        title: "5B - Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.9192,
           longitude: -48.25707
         }
       },
       {
-        title: "5B - Acesso ao 2º andar",
+        title: "Acesso ao segundo andar",
         coordinates: {
           latitude: -18.91904,
           longitude: -48.25691
         }
       },
       {
-        title: "5B - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91934,
           longitude: -48.257
@@ -897,14 +929,14 @@ export default [
     selected: false,
     markers: [
       {
-        title: "5F - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91936,
           longitude: -48.25798
         }
       },
       {
-        title: "5F - Elevador",
+        title: "Elevador",
         coordinates: {
           latitude: -18.91952,
           longitude: -48.25786
@@ -924,21 +956,21 @@ export default [
     selected: false,
     markers: [
       {
-        title: "5H - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91976,
           longitude: -48.26048
         }
       },
       {
-        title: "5H - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91985,
           longitude: -48.26046
         }
       },
       {
-        title: "5H - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.92007,
           longitude: -48.26051
@@ -952,7 +984,7 @@ export default [
     selected: false,
     markers: [
       {
-        title: "5I - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.9194,
           longitude: -48.26047
@@ -966,7 +998,7 @@ export default [
     selected: false,
     markers: [
       {
-        title: "5J - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91922,
           longitude: -48.26054
@@ -980,7 +1012,7 @@ export default [
     selected: false,
     markers: [
       {
-        title: "5K - Elevador",
+        title: "Elevador",
         coordinates: {
           latitude: -18.91973,
           longitude: -48.25823
@@ -1000,7 +1032,7 @@ export default [
     selected: false,
     markers: [
       {
-        title: "5M - Elevador",
+        title: "Elevador",
         coordinates: {
           latitude: -18.91829,
           longitude: -48.2569
@@ -1014,14 +1046,14 @@ export default [
     selected: false,
     markers: [
       {
-        title: "5N - Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91889,
           longitude: -48.25718
         }
       },
       {
-        title: "5N - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91866,
           longitude: -48.25724
@@ -1035,42 +1067,42 @@ export default [
     selected: false,
     markers: [
       {
-        title: "5O-A - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91758,
           longitude: -48.2568
         }
       },
       {
-        title: "5O-A - Elevador",
+        title: "Elevador",
         coordinates: {
           latitude: -18.91732,
           longitude: -48.25682
         }
       },
       {
-        title: "5O-B - Acesso ao saguão",
+        title: "Acesso ao saguão",
         coordinates: {
           latitude: -18.9171,
           longitude: -48.25675
         }
       },
       {
-        title: "5O-B - Acesso ao saguão",
+        title: "Acesso ao saguão",
         coordinates: {
           latitude: -18.91717,
           longitude: -48.25671
         }
       },
       {
-        title: "5O-B - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91718,
           longitude: -48.25656
         }
       },
       {
-        title: "5O-B - Elevador",
+        title: "Elevador",
         coordinates: {
           latitude: -18.91705,
           longitude: -48.25688
@@ -1090,56 +1122,49 @@ export default [
     selected: false,
     markers: [
       {
-        title: "5R-A - Acesso aos anfiteatros",
+        title: "Acesso aos anfiteatros",
         coordinates: {
           latitude: -18.91793,
           longitude: -48.25922
         }
       },
       {
-        title: "5R-A - Elevador",
+        title: "Elevador",
         coordinates: {
           latitude: -18.91781,
           longitude: -48.25909
         }
       },
       {
-        title: "5R-A - Elevador",
-        coordinates: {
-          latitude: -18.91781,
-          longitude: -48.25909
-        }
-      },
-      {
-        title: "5R-B - Acesso ao saguão",
+        title: "Acesso ao saguão",
         coordinates: {
           latitude: -18.91763,
           longitude: -48.259
         }
       },
       {
-        title: "5R-B - Acesso ao saguão",
+        title: "Acesso ao saguão",
         coordinates: {
           latitude: -18.91759,
           longitude: -48.25914
         }
       },
       {
-        title: "5R-B - Acesso ao subsolo",
+        title: "Acesso ao subsolo",
         coordinates: {
           latitude: -18.91737,
           longitude: -48.25926
         }
       },
       {
-        title: "5R-B - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91761,
           longitude: -48.25919
         }
       },
       {
-        title: "5R-B - Elevador",
+        title: "Elevador",
         coordinates: {
           latitude: -18.91752,
           longitude: -48.25919
@@ -1153,28 +1178,28 @@ export default [
     selected: false,
     markers: [
       {
-        title: "5S - Elevador",
+        title: "Elevador",
         coordinates: {
           latitude: -18.91658,
           longitude: -48.25811
         }
       },
       {
-        title: "5S - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.9167,
           longitude: -48.25832
         }
       },
       {
-        title: "5S - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91631,
           longitude: -48.25789
         }
       },
       {
-        title: "5S - Acesso ao 2º andar",
+        title: "Acesso ao segundo andar",
         coordinates: {
           latitude: -18.9165,
           longitude: -48.25796
@@ -1223,7 +1248,7 @@ export default [
     selected: false,
     markers: [
       {
-        title: "5T - Acesso ao 2º andar",
+        title: "Acesso ao segundo andar",
         coordinates: {
           latitude: -18.91909,
           longitude: -48.2601
@@ -1243,14 +1268,14 @@ export default [
     selected: false,
     markers: [
       {
-        title: "5V - Elevador",
+        title: "Elevador",
         coordinates: {
           latitude: -18.91686,
           longitude: -48.25638
         }
       },
       {
-        title: "5V - Acesso ao bloco",
+        title: "Acesso ao bloco",
         coordinates: {
           latitude: -18.91698,
           longitude: -48.25645
@@ -1466,21 +1491,21 @@ export default [
     selected: false,
     markers: [
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91816,
           longitude: -48.26019
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91743,
           longitude: -48.25647
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91742,
           longitude: -48.25642
@@ -1501,21 +1526,21 @@ export default [
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91747,
           longitude: -48.25618
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91696,
           longitude: -48.25511
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91696,
           longitude: -48.25507
@@ -1529,112 +1554,112 @@ export default [
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91753,
           longitude: -48.25532
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91752,
           longitude: -48.25529
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.9181,
           longitude: -48.26017
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91755,
           longitude: -48.25523
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91759,
           longitude: -48.25522
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91773,
           longitude: -48.25526
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91813,
           longitude: -48.25516
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91845,
           longitude: -48.25511
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.9179,
           longitude: -48.2574
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91895,
           longitude: -48.25932
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91931,
           longitude: -48.25991
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.9195,
           longitude: -48.25983
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.9175,
           longitude: -48.2556
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91804,
           longitude: -48.26014
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91761,
           longitude: -48.25621
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91768,
           longitude: -48.2566
@@ -1655,42 +1680,42 @@ export default [
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91888,
           longitude: -48.25715
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91893,
           longitude: -48.25696
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91927,
           longitude: -48.25877
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91935,
           longitude: -48.25916
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91941,
           longitude: -48.25942
         }
       },
       {
-        title: "Calçada",
+        title: "Acesso à calçada",
         coordinates: {
           latitude: -18.91799,
           longitude: -48.26011

@@ -14,9 +14,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#343434"
   },
-  icon: {
-    paddingRight: 10
-  },
   separator: {
     height: StyleSheet.hairlineWidth,
     backgroundColor: "#e6e6e6"

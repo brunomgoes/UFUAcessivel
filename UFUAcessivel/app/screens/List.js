@@ -1,14 +1,14 @@
-import React, { Component } from "react";
+import React from "react";
 import { FlatList, View, StatusBar } from "react-native";
-
 import { ListItem, Separator } from "../components/ListItem";
 import blocos from "../data/blocos";
 
-class List extends Component {
+class List extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       pontos: blocos,
+      search: null,
       selectedBlocos: []
     };
   }
@@ -46,7 +46,9 @@ class List extends Component {
             <ListItem
               text={item.title}
               selected={item.selected}
-              onPress={() => this.handlePress(item)}
+              onPress={() => {
+                this.handlePress(item);
+              }}
             />
           )}
         />
