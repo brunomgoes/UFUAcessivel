@@ -1,36 +1,32 @@
 import React from "react";
 import { FlatList, View, StatusBar } from "react-native";
+import { connect } from "react-redux";
+
 import { ListItem, Separator } from "../components/ListItem";
-import blocos from "../data/blocos";
+import { selectBlock } from "../actions/markers";
 
 class List extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      pontos: blocos,
-      search: null,
-      selectedBlocos: []
-    };
-  }
-
   handlePress = hey => {
-    this.state.pontos.map(item => {
+    this.props.blockList.map(item => {
       if (item.id === hey.id) {
         item.selected = !item.selected;
         if (item.selected === true) {
-          this.state.selectedBlocos.push(item);
+          this.props.selectedBlocksList.push(item);
           console.log("selected:" + item.title);
         } else if (item.selected === false) {
-          const i = this.state.selectedBlocos.indexOf(item);
+          const i = this.props.selectedBlocksList.indexOf(item);
           if (1 != -1) {
-            this.state.selectedBlocos.splice(i, 1);
+            this.props.selectedBlocksList.splice(i, 1);
             console.log("unselect:" + item.title);
-            return this.state.selectedBlocos;
+            return this.props.selectedBlocksList;
           }
         }
       }
     });
-    this.setState({ pontos: this.state.pontos });
+
+    this.props.dispatch(
+      selectBlock(this.props.blockList, this.props.selectedBlocksList)
+    );
   };
 
   render() {
@@ -38,8 +34,8 @@ class List extends React.Component {
       <View style={{ flex: 1 }}>
         <StatusBar barStyle="default" translucent={true} />
         <FlatList
-          data={this.state.pontos}
-          extraData={this.state}
+          data={this.props.blockList}
+          extraData={this.props.generalState}
           keyExtractor={item => item.id}
           ItemSeparatorComponent={Separator}
           renderItem={({ item }) => (
@@ -57,4 +53,16 @@ class List extends React.Component {
   }
 }
 
-export default List;
+const mapStateToProps = state => {
+  const blockList = state.markers.blocks;
+  const selectedBlocksList = state.markers.selectedBlocks;
+  const generalState = state.markers;
+
+  return {
+    blockList,
+    selectedBlocksList,
+    generalState
+  };
+};
+
+export default connect(mapStateToProps)(List);

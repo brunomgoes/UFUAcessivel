@@ -1,7 +1,9 @@
 import React from "react";
 import EStyleSheet from "react-native-extended-stylesheet";
+import { Provider } from "react-redux";
 
 import Routes from "./config/routes";
+import store from "./config/store";
 
 EStyleSheet.build({
   $white: "#FFFFFF",
@@ -10,5 +12,9 @@ EStyleSheet.build({
 });
 
 export default function App() {
-  return <Routes />;
+  return (
+    <Provider store={store}>
+      <Routes />
+    </Provider>
+  );
 }
